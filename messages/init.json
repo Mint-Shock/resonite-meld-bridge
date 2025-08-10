@@ -1,0 +1,7 @@
+{
+  "secret": "MySuperSecretKey123",
+  "payload": {
+    "id": 0,
+    "type": 3
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "secret": "MySuperSecretKey123",
+  "method": "toggleRecord"
+}

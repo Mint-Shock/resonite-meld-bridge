@@ -1,0 +1,21 @@
+/* Stage Szene */
+
+{
+  "secret": "MySuperSecretKey123",
+  "method": "setStagedScene",
+  "args": ["E9B25AD7242E540F5D2507237ACDAE37"]
+}
+
+/* Apply Szene */
+
+{
+  "secret": "MySuperSecretKey123",
+  "method": "showStagedScene"
+}
+
+
+{
+  "secret": "MySuperSecretKey123",
+  "method": "setStagedScene",
+  "args": ["53556C43B443F502FA0F8A6C2D550D5A"]
+}

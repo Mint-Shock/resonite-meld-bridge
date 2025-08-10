@@ -1,0 +1,9 @@
+{
+  "secret": "MySuperSecretKey123",
+  "payload": {
+    "args": ["0F436E814EFA3A1AFDC7F86DBF5B4276", 1, false],
+    "object": "meld",
+    "signal": 8,
+    "type": 1
+  }
+}
