@@ -1,732 +1,735 @@
 {
   "event": "sessionChanged",
   "value": {
-    "items": {
-      "02C9051298F2125B8299D2D631FFBA0E": {
-        "height": 297,
-        "index": 2,
-        "name": "be right back",
-        "parent": "F8A163E7D74C48577959D0EB3CF2BBA1",
-        "rotation": 0,
-        "text": "Dash menu is open",
-        "type": "layer",
-        "visible": true,
-        "width": 1352,
-        "x": 284,
-        "y": 520
-      },
-      "0F436E814EFA3A1AFDC7F86DBF5B4276": {
-        "monitoring": false,
-        "muted": false,
-        "name": "vr mic",
-        "type": "track"
-      },
-      "105B223F551734B51949C715CBD43253": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Background 1",
-        "parent": "69949E73492EF7B817BEB9526F6D64DF",
-        "type": "track"
-      },
-      "17916141B7319B3831C5CD65E791FD84": {
-        "height": 1080,
-        "index": 1,
-        "name": "broadcast-Starting (1)",
-        "parent": "D2364736C29980D02F6F16F0D1DF9B5F",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": 0
-      },
-      "1CB6BD1B1F4D256C90B6EFD2324BED06": {
-        "height": 1920,
-        "index": 0,
-        "name": "Transition vertical",
-        "parent": "1E7787056A73134CB263460134E63507",
-        "rotation": 90,
-        "type": "layer",
-        "visible": true,
-        "width": 1081,
-        "x": 2339,
-        "y": -421
-      },
-      "1E7787056A73134CB263460134E63507": {
-        "current": false,
-        "index": 1,
-        "name": "broadcast-paused",
-        "staged": false,
-        "type": "scene",
-        "vertical": false
-      },
-      "1E9AE74BE549AC4629B38D9ACFDC0A07": {
-        "current": false,
-        "index": 4,
-        "name": "preset-music",
-        "staged": false,
-        "type": "scene",
-        "vertical": false
-      },
-      "20787809EE2050D226B73B74DE6B91CE": {
-        "height": 1080,
-        "index": 1,
-        "name": "Transition horizontal",
-        "parent": "1E7787056A73134CB263460134E63507",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": 1080
-      },
-      "21C61169DDDE5EA325DA66BED75E1A6E": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Background 2",
-        "parent": "B9A31ACB41550A1AD5E1418CA6BDEF47",
-        "type": "track"
-      },
-      "24BBC5AEAD56C2A02A70897865ABAF2E": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Spotlight",
-        "parent": "CA6CEEA2F601E6695B5A7E2922AD5328",
-        "type": "track"
-      },
-      "3030A708DB3C64F34CB1AE03AD3EDC3A": {
-        "monitoring": true,
-        "muted": false,
-        "name": "Alerts",
-        "parent": "C9CF73B60D6CD69E10E7056E3334211D",
-        "type": "track"
-      },
-      "331A6FDFFE8A3B093C3B04DFAAD2588D": {
-        "height": 1920,
-        "index": 0,
-        "name": "Transition vertical",
-        "parent": "E9B25AD7242E540F5D2507237ACDAE37",
-        "rotation": 90,
-        "type": "layer",
-        "visible": true,
-        "width": 1081,
-        "x": -1476,
-        "y": -419
-      },
-      "338540F8644359459B982AACFEA6F641": {
-        "enabled": true,
-        "name": "Chroma Key",
-        "parent": "B9772442326879F62D9BC1F2DEF70CA1",
-        "type": "effect"
-      },
-      "35AE403D0C141544D935C802BE0C37EE": {
-        "enabled": true,
-        "name": "Glow Styles",
-        "parent": "B9772442326879F62D9BC1F2DEF70CA1",
-        "type": "effect"
-      },
-      "4844C42895CD6251FDB0EF59AA5C8057": {
-        "enabled": true,
-        "name": "Glow Styles",
-        "parent": "8457188EBA8B3AA443653C2900B78208",
-        "type": "effect"
-      },
-      "48E12C8D11A776EA2E85D517DDC2AADA": {
-        "enabled": true,
-        "name": "Glow Styles",
-        "parent": "5430B7B6B7C61A69671E1DC53F5EDCB0",
-        "type": "effect"
-      },
-      "4C14ECBD1F67124E49F098F812FAB8CF": {
-        "enabled": true,
-        "name": "Chroma Key",
-        "parent": "AD0C91B8D490AAD51ECB89371EF15F1A",
-        "type": "effect"
-      },
-      "514BCC7FBE188ECBA0E1B123CECF5AF9": {
-        "height": 1080,
-        "index": 1,
-        "name": "Transition horizontal",
-        "parent": "E9B25AD7242E540F5D2507237ACDAE37",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": -1080
-      },
-      "53556C43B443F502FA0F8A6C2D550D5A": {
-        "current": false,
-        "index": 3,
-        "name": "broadcast-live",
-        "staged": true,
-        "type": "scene",
-        "vertical": false
-      },
-      "5370A9D231D2AD5BFB50FB1AE6209147": {
-        "enabled": true,
-        "name": "Tritone",
-        "parent": "ED8FB047894ABB3AC4B5A62F86B8DB2C",
-        "type": "effect"
-      },
-      "5430B7B6B7C61A69671E1DC53F5EDCB0": {
-        "height": 297,
-        "index": 5,
-        "name": "starting",
-        "parent": "E9B25AD7242E540F5D2507237ACDAE37",
-        "rotation": 0,
-        "text": "starting soon",
-        "type": "layer",
-        "visible": true,
-        "width": 946,
-        "x": 487,
-        "y": 512
-      },
-      "5506A5C0C6931347E94CC306952253AF": {
-        "height": 1080,
-        "index": 8,
-        "isPlaying": false,
-        "mediaSource": "file:///C:/Users/mints/Desktop/projekte/Socials/Assets-Branding/Hintergrund/hintergrund-animation/0000-20000.mp4",
-        "name": "Background 1",
-        "parent": "1E7787056A73134CB263460134E63507",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": 0
-      },
-      "55778366F115D8E1C7B047A8237EB32B": {
-        "enabled": true,
-        "name": "Glow Styles",
-        "parent": "C5C7DFE2818C04DE5E8C92A4C403CA99",
-        "type": "effect"
-      },
-      "5915440BA6317AFB46A386582106B6D2": {
-        "height": 150,
-        "index": 0,
-        "name": "Img",
-        "parent": "1E9AE74BE549AC4629B38D9ACFDC0A07",
-        "rotation": 0,
-        "type": "layer",
-        "url": "https://6klabs.com/widget/youtube/b661721980752ce7d67206cd379f069ff579ec414bf0f5eacf40e458b196d654",
-        "visible": true,
-        "width": 149,
-        "x": 690,
-        "y": 454
-      },
-      "5F4D9EB51669C94F2422B5F3262E6AD3": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Resonite",
-        "parent": "B9772442326879F62D9BC1F2DEF70CA1",
-        "type": "track"
-      },
-      "61A38552D2F30E7AB2354CCC320CC87E": {
-        "monitoring": false,
-        "muted": false,
-        "name": "text",
-        "parent": "ED8FB047894ABB3AC4B5A62F86B8DB2C",
-        "type": "track"
-      },
-      "644EBA6362FCADCDD9243373FB8381DF": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Spotlight",
-        "parent": "C47850043B346706C2210B20BA4DF264",
-        "type": "track"
-      },
-      "69949E73492EF7B817BEB9526F6D64DF": {
-        "height": 1080,
-        "index": 8,
-        "isPlaying": false,
-        "mediaSource": "file:///C:/Users/mints/Desktop/projekte/Socials/Assets-Branding/Hintergrund/hintergrund-animation/0000-20000.mp4",
-        "name": "Background 1",
-        "parent": "E9B25AD7242E540F5D2507237ACDAE37",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": 0
-      },
-      "6F7E866836963EB4360BC23964307FB4": {
-        "height": 91,
-        "index": 7,
-        "name": "Spotlight",
-        "parent": "1E7787056A73134CB263460134E63507",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1900,
-        "x": 10,
-        "y": 929
-      },
-      "6FBCC71E8D7273F05BA52C8E4AD42C02": {
-        "current": false,
-        "index": 5,
-        "name": "preset-game-source",
-        "staged": false,
-        "type": "scene",
-        "vertical": false
-      },
-      "804C7B690534C02115E7F5DA5AFCD65A": {
-        "height": 297,
-        "index": 2,
-        "name": "bis gleich",
-        "parent": "1E7787056A73134CB263460134E63507",
-        "rotation": 0,
-        "text": "bis gleich\n",
-        "type": "layer",
-        "visible": true,
-        "width": 691,
-        "x": 618,
-        "y": 250
-      },
-      "8457188EBA8B3AA443653C2900B78208": {
-        "height": 297,
-        "index": 0,
-        "name": "bis gleich",
-        "parent": "F8A163E7D74C48577959D0EB3CF2BBA1",
-        "rotation": 0,
-        "text": "Menü ist offen",
-        "type": "layer",
-        "visible": true,
-        "width": 1028,
-        "x": 446,
-        "y": 250
-      },
-      "876F3BEA81525B0FDE84480088B96A3F": {
-        "enabled": true,
-        "name": "Drop Shadow",
-        "parent": "B9772442326879F62D9BC1F2DEF70CA1",
-        "type": "effect"
-      },
-      "8BD77933D787954B96CC41467626297B": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Spotlight",
-        "parent": "6F7E866836963EB4360BC23964307FB4",
-        "type": "track"
-      },
-      "8F9201A16C45C4CAE59EEE4C4352A8A0": {
-        "enabled": true,
-        "name": "Brightness & Contrast",
-        "parent": "ED8FB047894ABB3AC4B5A62F86B8DB2C",
-        "type": "effect"
-      },
-      "90689AF3D7B7DF3A0A979EFB12DD5070": {
-        "height": 278,
-        "index": 3,
-        "name": "preset-music (1)",
-        "parent": "E9B25AD7242E540F5D2507237ACDAE37",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 698,
-        "x": 611,
-        "y": -18
-      },
-      "93F4E29E170675C0C3DBA7E3EB64C399": {
-        "enabled": true,
-        "name": "Glow Styles",
-        "parent": "02C9051298F2125B8299D2D631FFBA0E",
-        "type": "effect"
-      },
-      "9606209B830328CD433071CACE2CE822": {
-        "enabled": true,
-        "name": "Drop Shadow",
-        "parent": "CA6CEEA2F601E6695B5A7E2922AD5328",
-        "type": "effect"
-      },
-      "973DE0062C80BA7E0CCAA0D4F9CC908B": {
-        "height": 1920,
-        "index": 3,
-        "name": "Combo Widget",
-        "parent": "1E7787056A73134CB263460134E63507",
-        "rotation": 90,
-        "type": "layer",
-        "visible": true,
-        "width": 50,
-        "x": 935,
-        "y": 95
-      },
-      "98AB2A046EF9F30ABA423F902491933F": {
-        "height": 278,
-        "index": 4,
-        "name": "preset-music (1)",
-        "parent": "1E7787056A73134CB263460134E63507",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 698,
-        "x": 611,
-        "y": -18
-      },
-      "9AB3EEA5C7B16A80BDADFE3E99726CB4": {
-        "enabled": true,
-        "name": "Glow Styles",
-        "parent": "804C7B690534C02115E7F5DA5AFCD65A",
-        "type": "effect"
-      },
-      "9B28EB8D3504107C1FB0337588D5C749": {
-        "height": 1920,
-        "index": 2,
-        "name": "Combo Widget",
-        "parent": "E9B25AD7242E540F5D2507237ACDAE37",
-        "rotation": 90,
-        "type": "layer",
-        "visible": true,
-        "width": 50,
-        "x": 935,
-        "y": 95
-      },
-      "9EFFF5A17A14F0A89BE9C8C222606C99": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Combo Widget",
-        "parent": "9B28EB8D3504107C1FB0337588D5C749",
-        "type": "track"
-      },
-      "A30DE9B1995E9BEC8C8D3DC3CF71C710": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Combo Widget",
-        "parent": "973DE0062C80BA7E0CCAA0D4F9CC908B",
-        "type": "track"
-      },
-      "A8166BC47CC63FD12EDF50C974D1388B": {
-        "enabled": true,
-        "name": "Glow Styles",
-        "parent": "EEB780707858190EB0010E8B5B45757B",
-        "type": "effect"
-      },
-      "AD0C91B8D490AAD51ECB89371EF15F1A": {
-        "height": 1080,
-        "index": 0,
-        "isPlaying": false,
-        "mediaSource": "file:///C:/Users/mints/Desktop/projekte/Socials/Assets-Branding/Logo/Logo-Animiert/Intro-Animation/logo anim 12.mov",
-        "name": "Intro",
-        "parent": "D2364736C29980D02F6F16F0D1DF9B5F",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": 0
-      },
-      "AE6C39CCC05A7945844353CEA64A9AF1": {
-        "enabled": true,
-        "name": "Drop Shadow",
-        "parent": "B9772442326879F62D9BC1F2DEF70CA1",
-        "type": "effect"
-      },
-      "AF5CA40269AB18CEB56EC9F25B96F78F": {
-        "height": 1080,
-        "index": 5,
-        "name": "broadcast-live",
-        "parent": "53556C43B443F502FA0F8A6C2D550D5A",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": 1
-      },
-      "AF8C8A81894083CE309E207C13B59F58": {
-        "enabled": true,
-        "name": "Tint",
-        "parent": "5915440BA6317AFB46A386582106B6D2",
-        "type": "effect"
-      },
-      "B9772442326879F62D9BC1F2DEF70CA1": {
-        "height": 1080,
-        "index": 0,
-        "name": "Resonite",
-        "parent": "6FBCC71E8D7273F05BA52C8E4AD42C02",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": 0
-      },
-      "B9A31ACB41550A1AD5E1418CA6BDEF47": {
-        "height": 1080,
-        "index": 3,
-        "isPlaying": true,
-        "mediaSource": "file:///C:/Users/mints/Desktop/projekte/Socials/Assets-Branding/Hintergrund/hintergrund-animation/0000-20000.mp4",
-        "name": "Background 2",
-        "parent": "F8A163E7D74C48577959D0EB3CF2BBA1",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": 0
-      },
-      "BA1C40D5DF73AD828FBC071D8887C015": {
-        "height": 1920,
-        "index": 0,
-        "name": "Transition vertical",
-        "parent": "53556C43B443F502FA0F8A6C2D550D5A",
-        "rotation": 90,
-        "type": "layer",
-        "visible": true,
-        "width": 1081,
-        "x": 2339,
-        "y": -419
-      },
-      "C47850043B346706C2210B20BA4DF264": {
-        "height": 91,
-        "index": 7,
-        "name": "Spotlight",
-        "parent": "E9B25AD7242E540F5D2507237ACDAE37",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1900,
-        "x": 10,
-        "y": 929
-      },
-      "C5C7DFE2818C04DE5E8C92A4C403CA99": {
-        "height": 297,
-        "index": 6,
-        "name": "be right back",
-        "parent": "1E7787056A73134CB263460134E63507",
-        "rotation": 0,
-        "text": "be right back",
-        "type": "layer",
-        "visible": true,
-        "width": 953,
-        "x": 483,
-        "y": 520
-      },
-      "C9CF73B60D6CD69E10E7056E3334211D": {
-        "height": 1080,
-        "index": 2,
-        "name": "Alerts",
-        "parent": "53556C43B443F502FA0F8A6C2D550D5A",
-        "rotation": 0,
-        "type": "layer",
-        "url": "https://streamelements.com/overlay/67ee99d157714ab2244439c5/js2KTWXOh-Udm6nuwNsSmqoBE2BLdGjyIp65t062opjFnuDH",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": 0
-      },
-      "CA6CEEA2F601E6695B5A7E2922AD5328": {
-        "height": 91,
-        "index": 3,
-        "name": "Spotlight",
-        "parent": "53556C43B443F502FA0F8A6C2D550D5A",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1900,
-        "x": 10,
-        "y": 979
-      },
-      "CB0EDE4759F56122050B2A266351BA7F": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Background 1",
-        "parent": "5506A5C0C6931347E94CC306952253AF",
-        "type": "track"
-      },
-      "CD968B39F34C9AA81E0E75DE419962B9": {
-        "height": 10,
-        "index": 4,
-        "name": "Rectangle",
-        "parent": "E9B25AD7242E540F5D2507237ACDAE37",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 946,
-        "x": 487,
-        "y": 557
-      },
-      "CF735B515687DAB301F0F98D6A3830A9": {
-        "height": 278,
-        "index": 4,
-        "name": "preset-music",
-        "parent": "53556C43B443F502FA0F8A6C2D550D5A",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 659,
-        "x": 1270,
-        "y": -18
-      },
-      "D063034CE89700CCFEACB0DAD2610551": {
-        "height": 1080,
-        "index": 7,
-        "isPlaying": false,
-        "mediaSource": "file:///C:/Users/mints/Desktop/projekte/Socials/Assets-Branding/Hintergrund/hintergrund-animation/0000-20000.mp4",
-        "name": "Background 2",
-        "parent": "53556C43B443F502FA0F8A6C2D550D5A",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": 0
-      },
-      "D1512ADF454A545D22BBD45F06798FBE": {
-        "monitoring": true,
-        "muted": false,
-        "name": "Intro",
-        "parent": "AD0C91B8D490AAD51ECB89371EF15F1A",
-        "type": "track"
-      },
-      "D2364736C29980D02F6F16F0D1DF9B5F": {
-        "current": false,
-        "index": 2,
-        "name": "broadcast-start",
-        "staged": false,
-        "type": "scene",
-        "vertical": false
-      },
-      "D828414EAE20A14012AAB2A7153836FD": {
-        "enabled": true,
-        "name": "Drop Shadow",
-        "parent": "ED8FB047894ABB3AC4B5A62F86B8DB2C",
-        "type": "effect"
-      },
-      "D8D9BEA4C229E6AA855F1291E66F06F4": {
-        "enabled": true,
-        "name": "Glow Styles",
-        "parent": "B9772442326879F62D9BC1F2DEF70CA1",
-        "type": "effect"
-      },
-      "D937236C54EC6FC072CC9A269EDB6032": {
-        "height": 1080,
-        "index": 1,
-        "name": "Transition horizontal",
-        "parent": "53556C43B443F502FA0F8A6C2D550D5A",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": -1080
-      },
-      "DC6F5FBF9FDDEF2E2BD78ED466F1DE29": {
-        "height": 10,
-        "index": 1,
-        "name": "Rectangle",
-        "parent": "F8A163E7D74C48577959D0EB3CF2BBA1",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 946,
-        "x": 487,
-        "y": 557
-      },
-      "DE1666D6DEC120C17FB4F5DF451F157D": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Background 2",
-        "parent": "D063034CE89700CCFEACB0DAD2610551",
-        "type": "track"
-      },
-      "E6B8A3D217F39FB301588A542183C7E5": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Track 1",
-        "type": "track"
-      },
-      "E9B25AD7242E540F5D2507237ACDAE37": {
-        "current": false,
-        "index": 0,
-        "name": "broadcast-Starting",
-        "staged": false,
-        "type": "scene",
-        "vertical": false
-      },
-      "ED8FB047894ABB3AC4B5A62F86B8DB2C": {
-        "height": 379,
-        "index": 1,
-        "name": "text",
-        "parent": "1E9AE74BE549AC4629B38D9ACFDC0A07",
-        "rotation": 0,
-        "type": "layer",
-        "url": "https://6klabs.com/widget/youtube/b661721980752ce7d67206cd379f069ff579ec414bf0f5eacf40e458b196d654",
-        "visible": true,
-        "width": 673,
-        "x": 623,
-        "y": 351
-      },
-      "EEB780707858190EB0010E8B5B45757B": {
-        "height": 297,
-        "index": 6,
-        "name": "startet",
-        "parent": "E9B25AD7242E540F5D2507237ACDAE37",
-        "rotation": 0,
-        "text": "Startet bald ",
-        "type": "layer",
-        "visible": true,
-        "width": 908,
-        "x": 506,
-        "y": 272
-      },
-      "EEDE85199D9788450F270C72F6A4766B": {
-        "enabled": true,
-        "name": "Glow Styles",
-        "parent": "C47850043B346706C2210B20BA4DF264",
-        "type": "effect"
-      },
-      "EFD5C806929CBF8A89ABD0D2B17DC4F1": {
-        "monitoring": false,
-        "muted": false,
-        "name": "desktop mic",
-        "type": "track"
-      },
-      "F06EBCF0304A069A37F01E08441C6E0B": {
-        "enabled": true,
-        "name": "Glow Styles",
-        "parent": "6F7E866836963EB4360BC23964307FB4",
-        "type": "effect"
-      },
-      "F49F7DD0E7F84983A8934B328E93A6E2": {
-        "height": 1080,
-        "index": 6,
-        "name": "overlay",
-        "parent": "53556C43B443F502FA0F8A6C2D550D5A",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 1920,
-        "x": 0,
-        "y": 0
-      },
-      "F8A163E7D74C48577959D0EB3CF2BBA1": {
-        "current": true,
-        "index": 6,
-        "name": "Dash open",
-        "staged": false,
-        "type": "scene",
-        "vertical": false
-      },
-      "FA74D1230FF7EFBEE9497653807B5A4B": {
-        "monitoring": false,
-        "muted": false,
-        "name": "Img",
-        "parent": "5915440BA6317AFB46A386582106B6D2",
-        "type": "track"
-      },
-      "FDBAC1C99C912E9B5308BD4CEA203694": {
-        "height": 10,
-        "index": 5,
-        "name": "Rectangle",
-        "parent": "1E7787056A73134CB263460134E63507",
-        "rotation": 0,
-        "type": "layer",
-        "visible": true,
-        "width": 946,
-        "x": 487,
-        "y": 557
+    "full": {
+      "items": {
+        "02C9051298F2125B8299D2D631FFBA0E": {
+          "height": 297,
+          "index": 2,
+          "name": "be right back",
+          "parent": "F8A163E7D74C48577959D0EB3CF2BBA1",
+          "rotation": 0,
+          "text": "Dash menu is open",
+          "type": "layer",
+          "visible": true,
+          "width": 1352,
+          "x": 284,
+          "y": 520
+        },
+        "0F436E814EFA3A1AFDC7F86DBF5B4276": {
+          "monitoring": false,
+          "muted": false,
+          "name": "vr mic",
+          "type": "track"
+        },
+        "105B223F551734B51949C715CBD43253": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Background 1",
+          "parent": "69949E73492EF7B817BEB9526F6D64DF",
+          "type": "track"
+        },
+        "17916141B7319B3831C5CD65E791FD84": {
+          "height": 1080,
+          "index": 1,
+          "name": "broadcast-Starting (1)",
+          "parent": "D2364736C29980D02F6F16F0D1DF9B5F",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": 0
+        },
+        "1CB6BD1B1F4D256C90B6EFD2324BED06": {
+          "height": 1920,
+          "index": 0,
+          "name": "Transition vertical",
+          "parent": "1E7787056A73134CB263460134E63507",
+          "rotation": 90,
+          "type": "layer",
+          "visible": true,
+          "width": 1081,
+          "x": 2339,
+          "y": -421
+        },
+        "1E7787056A73134CB263460134E63507": {
+          "current": false,
+          "index": 1,
+          "name": "broadcast-paused",
+          "staged": false,
+          "type": "scene",
+          "vertical": false
+        },
+        "1E9AE74BE549AC4629B38D9ACFDC0A07": {
+          "current": false,
+          "index": 4,
+          "name": "preset-music",
+          "staged": false,
+          "type": "scene",
+          "vertical": false
+        },
+        "20787809EE2050D226B73B74DE6B91CE": {
+          "height": 1080,
+          "index": 1,
+          "name": "Transition horizontal",
+          "parent": "1E7787056A73134CB263460134E63507",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": 1080
+        },
+        "21C61169DDDE5EA325DA66BED75E1A6E": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Background 2",
+          "parent": "B9A31ACB41550A1AD5E1418CA6BDEF47",
+          "type": "track"
+        },
+        "24BBC5AEAD56C2A02A70897865ABAF2E": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Spotlight",
+          "parent": "CA6CEEA2F601E6695B5A7E2922AD5328",
+          "type": "track"
+        },
+        "3030A708DB3C64F34CB1AE03AD3EDC3A": {
+          "monitoring": true,
+          "muted": false,
+          "name": "Alerts",
+          "parent": "C9CF73B60D6CD69E10E7056E3334211D",
+          "type": "track"
+        },
+        "331A6FDFFE8A3B093C3B04DFAAD2588D": {
+          "height": 1920,
+          "index": 0,
+          "name": "Transition vertical",
+          "parent": "E9B25AD7242E540F5D2507237ACDAE37",
+          "rotation": 90,
+          "type": "layer",
+          "visible": true,
+          "width": 1081,
+          "x": -1476,
+          "y": -419
+        },
+        "338540F8644359459B982AACFEA6F641": {
+          "enabled": true,
+          "name": "Chroma Key",
+          "parent": "B9772442326879F62D9BC1F2DEF70CA1",
+          "type": "effect"
+        },
+        "35AE403D0C141544D935C802BE0C37EE": {
+          "enabled": true,
+          "name": "Glow Styles",
+          "parent": "B9772442326879F62D9BC1F2DEF70CA1",
+          "type": "effect"
+        },
+        "4844C42895CD6251FDB0EF59AA5C8057": {
+          "enabled": true,
+          "name": "Glow Styles",
+          "parent": "8457188EBA8B3AA443653C2900B78208",
+          "type": "effect"
+        },
+        "48E12C8D11A776EA2E85D517DDC2AADA": {
+          "enabled": true,
+          "name": "Glow Styles",
+          "parent": "5430B7B6B7C61A69671E1DC53F5EDCB0",
+          "type": "effect"
+        },
+        "4C14ECBD1F67124E49F098F812FAB8CF": {
+          "enabled": true,
+          "name": "Chroma Key",
+          "parent": "AD0C91B8D490AAD51ECB89371EF15F1A",
+          "type": "effect"
+        },
+        "514BCC7FBE188ECBA0E1B123CECF5AF9": {
+          "height": 1080,
+          "index": 1,
+          "name": "Transition horizontal",
+          "parent": "E9B25AD7242E540F5D2507237ACDAE37",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": -1080
+        },
+        "53556C43B443F502FA0F8A6C2D550D5A": {
+          "current": true,
+          "index": 3,
+          "name": "broadcast-live",
+          "staged": false,
+          "type": "scene",
+          "vertical": false
+        },
+        "5370A9D231D2AD5BFB50FB1AE6209147": {
+          "enabled": true,
+          "name": "Tritone",
+          "parent": "ED8FB047894ABB3AC4B5A62F86B8DB2C",
+          "type": "effect"
+        },
+        "5430B7B6B7C61A69671E1DC53F5EDCB0": {
+          "height": 297,
+          "index": 5,
+          "name": "starting",
+          "parent": "E9B25AD7242E540F5D2507237ACDAE37",
+          "rotation": 0,
+          "text": "starting soon",
+          "type": "layer",
+          "visible": true,
+          "width": 946,
+          "x": 487,
+          "y": 512
+        },
+        "5506A5C0C6931347E94CC306952253AF": {
+          "height": 1080,
+          "index": 8,
+          "isPlaying": false,
+          "mediaSource": "file:///C:/Users/mints/Desktop/projekte/Socials/Assets-Branding/Hintergrund/hintergrund-animation/0000-20000.mp4",
+          "name": "Background 1",
+          "parent": "1E7787056A73134CB263460134E63507",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": 0
+        },
+        "55778366F115D8E1C7B047A8237EB32B": {
+          "enabled": true,
+          "name": "Glow Styles",
+          "parent": "C5C7DFE2818C04DE5E8C92A4C403CA99",
+          "type": "effect"
+        },
+        "5915440BA6317AFB46A386582106B6D2": {
+          "height": 150,
+          "index": 0,
+          "name": "Img",
+          "parent": "1E9AE74BE549AC4629B38D9ACFDC0A07",
+          "rotation": 0,
+          "type": "layer",
+          "url": "https://6klabs.com/widget/youtube/b661721980752ce7d67206cd379f069ff579ec414bf0f5eacf40e458b196d654",
+          "visible": true,
+          "width": 149,
+          "x": 690,
+          "y": 454
+        },
+        "5F4D9EB51669C94F2422B5F3262E6AD3": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Resonite",
+          "parent": "B9772442326879F62D9BC1F2DEF70CA1",
+          "type": "track"
+        },
+        "61A38552D2F30E7AB2354CCC320CC87E": {
+          "monitoring": false,
+          "muted": false,
+          "name": "text",
+          "parent": "ED8FB047894ABB3AC4B5A62F86B8DB2C",
+          "type": "track"
+        },
+        "644EBA6362FCADCDD9243373FB8381DF": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Spotlight",
+          "parent": "C47850043B346706C2210B20BA4DF264",
+          "type": "track"
+        },
+        "69949E73492EF7B817BEB9526F6D64DF": {
+          "height": 1080,
+          "index": 8,
+          "isPlaying": false,
+          "mediaSource": "file:///C:/Users/mints/Desktop/projekte/Socials/Assets-Branding/Hintergrund/hintergrund-animation/0000-20000.mp4",
+          "name": "Background 1",
+          "parent": "E9B25AD7242E540F5D2507237ACDAE37",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": 0
+        },
+        "6F7E866836963EB4360BC23964307FB4": {
+          "height": 91,
+          "index": 7,
+          "name": "Spotlight",
+          "parent": "1E7787056A73134CB263460134E63507",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1900,
+          "x": 10,
+          "y": 929
+        },
+        "6FBCC71E8D7273F05BA52C8E4AD42C02": {
+          "current": false,
+          "index": 5,
+          "name": "preset-game-source",
+          "staged": false,
+          "type": "scene",
+          "vertical": false
+        },
+        "804C7B690534C02115E7F5DA5AFCD65A": {
+          "height": 297,
+          "index": 2,
+          "name": "bis gleich",
+          "parent": "1E7787056A73134CB263460134E63507",
+          "rotation": 0,
+          "text": "bis gleich\n",
+          "type": "layer",
+          "visible": true,
+          "width": 691,
+          "x": 618,
+          "y": 250
+        },
+        "8457188EBA8B3AA443653C2900B78208": {
+          "height": 297,
+          "index": 0,
+          "name": "bis gleich",
+          "parent": "F8A163E7D74C48577959D0EB3CF2BBA1",
+          "rotation": 0,
+          "text": "Menü ist offen",
+          "type": "layer",
+          "visible": true,
+          "width": 1028,
+          "x": 446,
+          "y": 250
+        },
+        "876F3BEA81525B0FDE84480088B96A3F": {
+          "enabled": true,
+          "name": "Drop Shadow",
+          "parent": "B9772442326879F62D9BC1F2DEF70CA1",
+          "type": "effect"
+        },
+        "8BD77933D787954B96CC41467626297B": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Spotlight",
+          "parent": "6F7E866836963EB4360BC23964307FB4",
+          "type": "track"
+        },
+        "8F9201A16C45C4CAE59EEE4C4352A8A0": {
+          "enabled": true,
+          "name": "Brightness & Contrast",
+          "parent": "ED8FB047894ABB3AC4B5A62F86B8DB2C",
+          "type": "effect"
+        },
+        "90689AF3D7B7DF3A0A979EFB12DD5070": {
+          "height": 278,
+          "index": 3,
+          "name": "preset-music (1)",
+          "parent": "E9B25AD7242E540F5D2507237ACDAE37",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 698,
+          "x": 611,
+          "y": -18
+        },
+        "93F4E29E170675C0C3DBA7E3EB64C399": {
+          "enabled": true,
+          "name": "Glow Styles",
+          "parent": "02C9051298F2125B8299D2D631FFBA0E",
+          "type": "effect"
+        },
+        "9606209B830328CD433071CACE2CE822": {
+          "enabled": true,
+          "name": "Drop Shadow",
+          "parent": "CA6CEEA2F601E6695B5A7E2922AD5328",
+          "type": "effect"
+        },
+        "973DE0062C80BA7E0CCAA0D4F9CC908B": {
+          "height": 1920,
+          "index": 3,
+          "name": "Combo Widget",
+          "parent": "1E7787056A73134CB263460134E63507",
+          "rotation": 90,
+          "type": "layer",
+          "visible": true,
+          "width": 50,
+          "x": 935,
+          "y": 95
+        },
+        "98AB2A046EF9F30ABA423F902491933F": {
+          "height": 278,
+          "index": 4,
+          "name": "preset-music (1)",
+          "parent": "1E7787056A73134CB263460134E63507",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 698,
+          "x": 611,
+          "y": -18
+        },
+        "9AB3EEA5C7B16A80BDADFE3E99726CB4": {
+          "enabled": true,
+          "name": "Glow Styles",
+          "parent": "804C7B690534C02115E7F5DA5AFCD65A",
+          "type": "effect"
+        },
+        "9B28EB8D3504107C1FB0337588D5C749": {
+          "height": 1920,
+          "index": 2,
+          "name": "Combo Widget",
+          "parent": "E9B25AD7242E540F5D2507237ACDAE37",
+          "rotation": 90,
+          "type": "layer",
+          "visible": true,
+          "width": 50,
+          "x": 935,
+          "y": 95
+        },
+        "9EFFF5A17A14F0A89BE9C8C222606C99": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Combo Widget",
+          "parent": "9B28EB8D3504107C1FB0337588D5C749",
+          "type": "track"
+        },
+        "A30DE9B1995E9BEC8C8D3DC3CF71C710": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Combo Widget",
+          "parent": "973DE0062C80BA7E0CCAA0D4F9CC908B",
+          "type": "track"
+        },
+        "A8166BC47CC63FD12EDF50C974D1388B": {
+          "enabled": true,
+          "name": "Glow Styles",
+          "parent": "EEB780707858190EB0010E8B5B45757B",
+          "type": "effect"
+        },
+        "AD0C91B8D490AAD51ECB89371EF15F1A": {
+          "height": 1080,
+          "index": 0,
+          "isPlaying": false,
+          "mediaSource": "file:///C:/Users/mints/Desktop/projekte/Socials/Assets-Branding/Logo/Logo-Animiert/Intro-Animation/logo anim 12.mov",
+          "name": "Intro",
+          "parent": "D2364736C29980D02F6F16F0D1DF9B5F",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": 0
+        },
+        "AE6C39CCC05A7945844353CEA64A9AF1": {
+          "enabled": true,
+          "name": "Drop Shadow",
+          "parent": "B9772442326879F62D9BC1F2DEF70CA1",
+          "type": "effect"
+        },
+        "AF5CA40269AB18CEB56EC9F25B96F78F": {
+          "height": 1080,
+          "index": 5,
+          "name": "broadcast-live",
+          "parent": "53556C43B443F502FA0F8A6C2D550D5A",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": 1
+        },
+        "AF8C8A81894083CE309E207C13B59F58": {
+          "enabled": true,
+          "name": "Tint",
+          "parent": "5915440BA6317AFB46A386582106B6D2",
+          "type": "effect"
+        },
+        "B9772442326879F62D9BC1F2DEF70CA1": {
+          "height": 1080,
+          "index": 0,
+          "name": "Resonite",
+          "parent": "6FBCC71E8D7273F05BA52C8E4AD42C02",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": 0
+        },
+        "B9A31ACB41550A1AD5E1418CA6BDEF47": {
+          "height": 1080,
+          "index": 3,
+          "isPlaying": false,
+          "mediaSource": "file:///C:/Users/mints/Desktop/projekte/Socials/Assets-Branding/Hintergrund/hintergrund-animation/0000-20000.mp4",
+          "name": "Background 2",
+          "parent": "F8A163E7D74C48577959D0EB3CF2BBA1",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": 0
+        },
+        "BA1C40D5DF73AD828FBC071D8887C015": {
+          "height": 1920,
+          "index": 0,
+          "name": "Transition vertical",
+          "parent": "53556C43B443F502FA0F8A6C2D550D5A",
+          "rotation": 90,
+          "type": "layer",
+          "visible": true,
+          "width": 1081,
+          "x": 2339,
+          "y": -419
+        },
+        "C47850043B346706C2210B20BA4DF264": {
+          "height": 91,
+          "index": 7,
+          "name": "Spotlight",
+          "parent": "E9B25AD7242E540F5D2507237ACDAE37",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1900,
+          "x": 10,
+          "y": 929
+        },
+        "C5C7DFE2818C04DE5E8C92A4C403CA99": {
+          "height": 297,
+          "index": 6,
+          "name": "be right back",
+          "parent": "1E7787056A73134CB263460134E63507",
+          "rotation": 0,
+          "text": "be right back",
+          "type": "layer",
+          "visible": true,
+          "width": 953,
+          "x": 483,
+          "y": 520
+        },
+        "C9CF73B60D6CD69E10E7056E3334211D": {
+          "height": 1080,
+          "index": 2,
+          "name": "Alerts",
+          "parent": "53556C43B443F502FA0F8A6C2D550D5A",
+          "rotation": 0,
+          "type": "layer",
+          "url": "https://streamelements.com/overlay/67ee99d157714ab2244439c5/js2KTWXOh-Udm6nuwNsSmqoBE2BLdGjyIp65t062opjFnuDH",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": 0
+        },
+        "CA6CEEA2F601E6695B5A7E2922AD5328": {
+          "height": 91,
+          "index": 3,
+          "name": "Spotlight",
+          "parent": "53556C43B443F502FA0F8A6C2D550D5A",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1900,
+          "x": 10,
+          "y": 979
+        },
+        "CB0EDE4759F56122050B2A266351BA7F": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Background 1",
+          "parent": "5506A5C0C6931347E94CC306952253AF",
+          "type": "track"
+        },
+        "CD968B39F34C9AA81E0E75DE419962B9": {
+          "height": 10,
+          "index": 4,
+          "name": "Rectangle",
+          "parent": "E9B25AD7242E540F5D2507237ACDAE37",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 946,
+          "x": 487,
+          "y": 557
+        },
+        "CF735B515687DAB301F0F98D6A3830A9": {
+          "height": 278,
+          "index": 4,
+          "name": "preset-music",
+          "parent": "53556C43B443F502FA0F8A6C2D550D5A",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 659,
+          "x": 1270,
+          "y": -18
+        },
+        "D063034CE89700CCFEACB0DAD2610551": {
+          "height": 1080,
+          "index": 7,
+          "isPlaying": true,
+          "mediaSource": "file:///C:/Users/mints/Desktop/projekte/Socials/Assets-Branding/Hintergrund/hintergrund-animation/0000-20000.mp4",
+          "name": "Background 2",
+          "parent": "53556C43B443F502FA0F8A6C2D550D5A",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": 0
+        },
+        "D1512ADF454A545D22BBD45F06798FBE": {
+          "monitoring": true,
+          "muted": false,
+          "name": "Intro",
+          "parent": "AD0C91B8D490AAD51ECB89371EF15F1A",
+          "type": "track"
+        },
+        "D2364736C29980D02F6F16F0D1DF9B5F": {
+          "current": false,
+          "index": 2,
+          "name": "broadcast-start",
+          "staged": false,
+          "type": "scene",
+          "vertical": false
+        },
+        "D828414EAE20A14012AAB2A7153836FD": {
+          "enabled": true,
+          "name": "Drop Shadow",
+          "parent": "ED8FB047894ABB3AC4B5A62F86B8DB2C",
+          "type": "effect"
+        },
+        "D8D9BEA4C229E6AA855F1291E66F06F4": {
+          "enabled": true,
+          "name": "Glow Styles",
+          "parent": "B9772442326879F62D9BC1F2DEF70CA1",
+          "type": "effect"
+        },
+        "D937236C54EC6FC072CC9A269EDB6032": {
+          "height": 1080,
+          "index": 1,
+          "name": "Transition horizontal",
+          "parent": "53556C43B443F502FA0F8A6C2D550D5A",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": -1080
+        },
+        "DC6F5FBF9FDDEF2E2BD78ED466F1DE29": {
+          "height": 10,
+          "index": 1,
+          "name": "Rectangle",
+          "parent": "F8A163E7D74C48577959D0EB3CF2BBA1",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 946,
+          "x": 487,
+          "y": 557
+        },
+        "DE1666D6DEC120C17FB4F5DF451F157D": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Background 2",
+          "parent": "D063034CE89700CCFEACB0DAD2610551",
+          "type": "track"
+        },
+        "E6B8A3D217F39FB301588A542183C7E5": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Track 1",
+          "type": "track"
+        },
+        "E9B25AD7242E540F5D2507237ACDAE37": {
+          "current": false,
+          "index": 0,
+          "name": "broadcast-Starting",
+          "staged": false,
+          "type": "scene",
+          "vertical": false
+        },
+        "ED8FB047894ABB3AC4B5A62F86B8DB2C": {
+          "height": 379,
+          "index": 1,
+          "name": "text",
+          "parent": "1E9AE74BE549AC4629B38D9ACFDC0A07",
+          "rotation": 0,
+          "type": "layer",
+          "url": "https://6klabs.com/widget/youtube/b661721980752ce7d67206cd379f069ff579ec414bf0f5eacf40e458b196d654",
+          "visible": true,
+          "width": 673,
+          "x": 623,
+          "y": 351
+        },
+        "EEB780707858190EB0010E8B5B45757B": {
+          "height": 297,
+          "index": 6,
+          "name": "startet",
+          "parent": "E9B25AD7242E540F5D2507237ACDAE37",
+          "rotation": 0,
+          "text": "Startet bald ",
+          "type": "layer",
+          "visible": true,
+          "width": 908,
+          "x": 506,
+          "y": 272
+        },
+        "EEDE85199D9788450F270C72F6A4766B": {
+          "enabled": true,
+          "name": "Glow Styles",
+          "parent": "C47850043B346706C2210B20BA4DF264",
+          "type": "effect"
+        },
+        "EFD5C806929CBF8A89ABD0D2B17DC4F1": {
+          "monitoring": false,
+          "muted": true,
+          "name": "desktop mic",
+          "type": "track"
+        },
+        "F06EBCF0304A069A37F01E08441C6E0B": {
+          "enabled": true,
+          "name": "Glow Styles",
+          "parent": "6F7E866836963EB4360BC23964307FB4",
+          "type": "effect"
+        },
+        "F49F7DD0E7F84983A8934B328E93A6E2": {
+          "height": 1080,
+          "index": 6,
+          "name": "overlay",
+          "parent": "53556C43B443F502FA0F8A6C2D550D5A",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 1920,
+          "x": 0,
+          "y": 0
+        },
+        "F8A163E7D74C48577959D0EB3CF2BBA1": {
+          "current": false,
+          "index": 6,
+          "name": "Dash open",
+          "staged": true,
+          "type": "scene",
+          "vertical": false
+        },
+        "FA74D1230FF7EFBEE9497653807B5A4B": {
+          "monitoring": false,
+          "muted": false,
+          "name": "Img",
+          "parent": "5915440BA6317AFB46A386582106B6D2",
+          "type": "track"
+        },
+        "FDBAC1C99C912E9B5308BD4CEA203694": {
+          "height": 10,
+          "index": 5,
+          "name": "Rectangle",
+          "parent": "1E7787056A73134CB263460134E63507",
+          "rotation": 0,
+          "type": "layer",
+          "visible": true,
+          "width": 946,
+          "x": 487,
+          "y": 557
+        }
       }
-    }
+    },
+    "index": 18
   }
 }
