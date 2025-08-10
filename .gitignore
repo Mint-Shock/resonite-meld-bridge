@@ -1,3 +1,31 @@
+# Node modules (don't track installed dependencies)
 node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables (keep secrets safe)
 .env
+.env.local
+.env.*.local
+
+# OS-specific clutter
 .DS_Store
+Thumbs.db
+
+# Build and cache artifacts
+dist/
+build/
+.cache/
+.temp/
+
+# VSCode settings that shouldn’t be shared
+.vscode/*
+!.vscode/extensions.json   # allow recommended extensions
+
+# Optional lock files if you don’t want to track them
+# package-lock.json
+# yarn.lock
