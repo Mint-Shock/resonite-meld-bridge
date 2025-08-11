@@ -10,74 +10,29 @@ A Node.js bridge for securely controlling [Meld Studio](https://meldstudio.co/) 
 
 ### Security considerations
 
-> [!important]+ Important!
 > Resonite should NEVER be allowed to directly connect to Meld directly (ws://127.0.0.1:13376/) because Meld currently has no authentication and accepts everything that is a valid Message
 
 -  This would in theory allow anyone in your current Resonite Session to gain (almost) full access to your Meld Studio instance. Including starting a stream without your permission.
 
-  
-
 ## Getting Started
+### Install and setup Meld studio
+1. https://meldstudio.co/
+2. Enable remote connections
+	1. File>Preferences
+	2. Advanced > `[X]` Allow remote connections
 
-  
+### Setup Meld Bridge
+coming soon
+### Resonite
+Use my premade Integrations
 
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/yourusername/Bride-node_js.git
-    cd Bride-node_js
-    ```
-
-  
-
-2. **Install dependencies:**
-
-    ```bash
-
-    npm install
-
-    ```
-
-  
-
-3. **Run the bridge:**
-
-    ```bash
-
-    npm start
-
-    ```
-
-  
-
-## Usage
-
-  
-
-Import and use the bridge in your Node.js project:
-
-  
-
-```js
-
-const meldBridge = require('meld-bridge');
-
-// Your code here
-
+Make your own by sending messages in the following format
+```
+{`
+  `"secret": "MySuperSecretKey123",`
+  `"method": "toggleRecord"`
+`}
 ```
 
-  
-
-## Contributing
-
-  
-
-Contributions are welcome! Please open issues or submit pull requests.
-
-  
-
 ## License
-
-  
-
 This project is licensed under the MIT License.
