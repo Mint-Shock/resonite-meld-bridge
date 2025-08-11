@@ -28,10 +28,10 @@ Use my premade Integrations
 
 Make your own by sending messages in the following format
 ```
-{`
-  `"secret": "MySuperSecretKey123",`
-  `"method": "toggleRecord"`
-`}
+{
+  "secret": "MySuperSecretKey123",
+  "method": "toggleRecord"
+}
 ```
 
 ## License
