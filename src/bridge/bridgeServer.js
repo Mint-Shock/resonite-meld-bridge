@@ -40,14 +40,23 @@ function startBridgeServer() {
         return;
       }
 
-      if (data.subscribe === "sessionChanged") {
-        subscribeToSignal(meld, "sessionChanged", (event, value) => {
-          // Deep clone value to avoid reference issues
-          const newSession = JSON.parse(JSON.stringify(value));
-          const diff = diffObjects(lastSession, newSession);
-          sessionMsgIndex++;
-          sendToResonite("sessionChanged", { diff, index: sessionMsgIndex });
-          lastSession = newSession;
+      if (data.subscribe) {
+        subscribeToSignal(meld, data.subscribe, (event, value) => {
+          if (data.subscribe === "sessionChanged") {
+            const newSession = JSON.parse(JSON.stringify(value));
+            const diff = diffObjects(lastSession, newSession);
+            if (diff !== undefined) {
+              sessionMsgIndex++;
+              sendToResonite("sessionChanged", { diff, index: sessionMsgIndex });
+              lastSession = newSession;
+            } else {
+              console.log("No diff to send for sessionChanged event");
+              lastSession = newSession;
+            }
+          } else {
+            // Always use the signal name as the event
+            sendToResonite(data.subscribe, value);
+          }
         });
         return;
       }
