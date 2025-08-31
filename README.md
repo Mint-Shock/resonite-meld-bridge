@@ -90,3 +90,71 @@ This project is licensed under the MIT License.
 ## ToDo
 - [ ] don't let the user use the default key
 - [ ] make a executable file that autostarts with meld
+- [/] Bridge Program
+	- [/] Forward Messages From *Resonite* to **Meld**
+		- [/] Event Signals
+			- [ ] gainUpdated
+			- [x] sessionChanged
+				- [x] Full object
+				- [x] Difference to previous Object for better Parsing performance in Resonite
+				- [ ] **Fix bug that First Full message Request Fails**
+			- [ ] isStreamingChanged
+			- [x] isRecordingChanged
+		- Only SessionChanged and RecordingToggled are tested
+		- [ ] Functions
+			- Tested:
+				- [ ] showScene
+				- [ ] toggleMute
+				- [ ] toggleMonitor 
+				- [ ] toggleLayer
+				- [ ] toggleEffect
+				- [x] toggleRecord
+				- [ ] toggleStream
+				- [?] registerTrackObserver
+				- [?] unregisterTrackObserver
+				- [ ] setGain
+				- [ ] sendCommand
+					- [ ] screenshot
+					- [ ] recordClip
+					- [?] startStreamingAction
+					- [?] stopStreamingAction
+					- [?] toggleStreamingAction
+					- [?] startRecordingAction
+					- [?] stopRecordingAction
+					- [?] toggleRecordingAction
+					- [ ] toggleVirtualCameraAction
+				- [x] showStagedScene
+				- [ ] setProperty
+					-  *note: setting "parent", "type", and "index" will have no effect.* 
+	- [/] Forward Messages from **Meld** to *Resonite*
+		- [/] Event Subscriptions
+			- [x] Send Data back
+			- [ ] All events should probably also have an index not just session Changed (for lost packet checking)
+- [/] Backend in Resonite
+	- [/] Parse Meld Object recieved from session Changed
+		- [ ] **fix "Scen" bug (at the end of parsing Script)**
+		- Writing this should either not happen on a diff (only on full objects) or not break if the "type" attribute is the last attribute
+		- [ ] Write Result into Slots with Dynvars
+	- [ ] Handle missed packets using the index
+- [/] Make ingame Ui
+	- Display the state of Meld inside of Resonite
+	- [ ] Provide Status on what is happening in Meld
+		- [x] Connection Status to bridge
+		- [ ] Mute State of specific (promoted) microphone inputs
+			- [ ] make toggle in inspector for Tracks
+	- [ ] Framework to display a list of Elements
+		- [x] Double click to select
+		- [ ] Use data from Dynvars for display
+		- [ ] Send events to Meld if a button in the Ui was pressed
+			- Don't update in Resonite directly. Wait on Response from Meld.
+		- [/] Dynamically generate Ui for inspecting Elements based on their Type
+			- [ ] Dictionary what Element Type needs what Ui Elements in the inspector
+				- Description
+				- Data Type
+					- [/] String Short
+					- [ ] String Long
+					- [/] Bool
+					- [ ] dateTime `Debug`
+					- [ ] float
+			- [ ] make most of these editable from Ui and have button to send update to meld
+			- [ ] make generator to make permanent Facets out of specific settings for facet anchors
