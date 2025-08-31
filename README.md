@@ -88,9 +88,9 @@ This project is licensed under the MIT License.
 
 
 ## ToDo
-- [ ] don't let the user use the default key
-- [ ] make a executable file that autostarts with meld
 - [/] Bridge Program
+	- [ ] make a executable file that autostarts with meld
+	- [ ] don't let the user use the default key
 	- [/] Forward Messages From *Resonite* to **Meld**
 		- [/] Event Signals
 			- [ ] gainUpdated
@@ -130,7 +130,9 @@ This project is licensed under the MIT License.
 		- [/] Event Subscriptions
 			- [x] Send Data back
 			- [ ] All events should probably also have an index not just session Changed (for lost packet checking)
+
 - [/] Backend in Resonite
+	- [ ] don't let the user use the default key
 	- [/] Parse Meld Object recieved from session Changed
 		- [ ] **fix "Scen" bug (at the end of parsing Script)**
 		- Writing this should either not happen on a diff (only on full objects) or not break if the "type" attribute is the last attribute
@@ -152,9 +154,22 @@ This project is licensed under the MIT License.
 				- Description
 				- Data Type
 					- [/] String Short
-					- [ ] String Long
+					- [ ] String Long `Debug`
 					- [/] Bool
 					- [ ] dateTime `Debug`
 					- [ ] float
 			- [ ] make most of these editable from Ui and have button to send update to meld
 			- [ ] make generator to make permanent Facets out of specific settings for facet anchors
+	- [ ] Tabs:
+		- [ ] Scenes
+		- [ ] Layers
+		- [ ] Tracks
+		- [ ] Effects
+		- [ ] Settings
+		- [ ] Plugins
+		- [ ] Debug
+			- [x] Display all incoming messages
+			- [ ] Display outgoing Messages
+			- [?] Filter options
+			- [ ] Ability to "replay" specific messages
+			- [ ] 
