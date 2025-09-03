@@ -30,6 +30,13 @@ function connectToMeld() {
       onmessage: null,
     };
 
+    // Wrap transport.send for logging
+    const origSend = transport.send;
+    transport.send = function (data) {
+      console.log("[Meld WS OUT]", typeof data === "string" ? data : JSON.stringify(data));
+      origSend.call(this, data);
+    };
+
     meldSocket.on("message", (data) => {
       if (typeof data === "object" && data.toString) data = data.toString();
       const parsed = parseJSONSafe(data);
@@ -60,6 +67,15 @@ function connectToMeld() {
     meldConnected = false;
     console.error("Meld error:", err.message);
   });
+
+  const ws = new WebSocket(MELD_URL);
+
+  ws.send = (function (origSend) {
+    return function (data) {
+      console.log("[Meld WS OUT]", typeof data === "string" ? data : JSON.stringify(data));
+      origSend.call(this, data);
+    };
+  })(ws.send);
 }
 
 function getMeld() {
