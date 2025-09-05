@@ -54,7 +54,6 @@ function startBridgeServer() {
               lastSession = newSession;
             }
           } else {
-            // Always use the signal name as the event
             sendToResonite(data.subscribe, value);
           }
         });
@@ -62,8 +61,13 @@ function startBridgeServer() {
       }
 
       if (data.method === "requestFullSession") {
-        sessionMsgIndex++;
-        sendToResonite("sessionChanged", { full: lastSession, index: sessionMsgIndex });
+        console.log("📦 Resonite requested full session object");
+        if (lastSession) {
+          sessionMsgIndex++;
+          sendToResonite("sessionChanged", { full: lastSession, index: sessionMsgIndex });
+        } else {
+          console.log("⚠️ No session data available to send");
+        }
         return;
       }
 
@@ -116,4 +120,8 @@ function diffObjects(prev, next) {
   return Object.keys(diff).length > 0 ? diff : undefined;
 }
 
-module.exports = { startBridgeServer, sendToResonite };
+function setInitialSession(session) {
+  lastSession = session;
+}
+
+module.exports = { startBridgeServer, sendToResonite, setInitialSession };
