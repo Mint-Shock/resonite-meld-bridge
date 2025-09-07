@@ -56,9 +56,7 @@ function connectToMeld() {
 
       // Store initial session state
       if (meld.session) {
-        // Deep clone to avoid reference issues
         const initialSession = JSON.parse(JSON.stringify(meld.session));
-        // Export this or set it on bridgeServer.js
         require("./bridgeServer").setInitialSession(initialSession);
         console.log("Initial session loaded from Meld:", initialSession);
       }
